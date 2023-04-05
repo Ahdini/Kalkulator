@@ -21,9 +21,9 @@ numbers.forEach((number) => {
 
 let prevNumber = '';
 
-let currentNumber = '';
+let currentNumber = '0';
 
-let calculationOperator = '0';
+let calculationOperator = '';
 
 const inputNumber = (number) => {
     if (currentNumber === '0') {
